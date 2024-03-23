@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-height: 550px;
+  min-width: 550px;
+  background-color: rgb(51, 51, 51);
+  padding: 20px;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.box {
+  text-align: center;
+}
+
+.box h3 {
+  color: #f6f5f5;
+  font-family: Lexend Deca, sans-serif;
+  font-size: 2rem;
+  font-weight: unset;
+  line-height: 1.5rem;
+  margin-block-end: unset;
+  margin-block-start: unset;
+  margin-top: -0.23em;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.box h3:hover {
+  color: rgba(144, 238, 144, 0.776);
+}
+
+.searchBar {
+  height: 13px;
+  width: 140px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  padding: 8px;
+  border: 2px solid grey;
+  text-align: center;
+  background-color: rgb(15, 15, 15);
+  color: rgba(144, 238, 144, 0.776);
+  font-size: 18px;
+  font-weight: 100;
+  font-family: "Cambria, Cochin, Georgia, Times, " Times New Roman ", serif";
+  background-size: cover;
+  caret-color: transparent;
+}
+
+#titleBar {
+  height: 13px;
+  width: 510px;
+  padding: 10px;
+  border: 2px solid grey;
+  position: relative;
+  text-align: center;
+  background-color: rgb(15, 15, 15);
+  color: rgba(144, 238, 144, 0.776);
+  font-size: 18px;
+  font-weight: 100;
+  font-family: "Cambria, Cochin, Georgia, Times, " Times New Roman ", serif";
+  background-size: cover;
+  caret-color: transparent;
+}
+
+::placeholder {
+  color: white;
+  font-weight: 100;
+  font-family: "Cambria, Cochin, Georgia, Times, " Times New Roman ", serif";
+  font-size: 18px;
+}
+
+.comment {
+  height: 130px;
+  width: 510px;
+  padding: 15px;
+  background-color: rgb(15, 15, 15);
+  border: 3px solid grey;
+  color: rgba(144, 238, 144, 0.776);
+  font-size: 18px;
+  font-weight: 100;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.button {
+  margin-top: 10px;
+  height: 60px;
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  position: relative;
+  top: 25px;
+}
+
+small {
+  display: flex;
+  color: whitesmoke;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.button button {
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+  border: 1.5px solid;
+  border-color: cornsilk;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 4px darkslategray;
+}
+
+.button img {
+  height: 20px;
+  width: 20px;
+}
+
+.search {
+  display: flex;
+  padding: 5px;
+  gap: 5px;
+}
+
+#searchButton {
+  height: 33px;
+  width: 50px;
+  font-family: "Sans Serif";
+  font-size: 15px;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  background-color: black;
+  border-radius: 10%;
+}
+
+#searchButton {
+  background: url(/images/magnifying-glass-solid.svg) center no-repeat;
+  background-size: 17px;
+}
+
+#showNotesButton {
+  background: url(/images/list-solid.svg) center no-repeat;
+  background-size: 17px;
+  /* background-color: rgb(58, 255, 127); */
+}
+
+#saveButton {
+  background: url(/images/floppy-disk-solid.svg) center no-repeat;
+  background-size: 17px;
+}
+
+#clearNotesButton {
+  background: url(/images/rotate-right-solid.svg) center no-repeat;
+  background-size: 17px;
+}
+
+#deleteNotesButton {
+  background: url(/images/trash-solid.svg) center no-repeat;
+  background-size: 17px;
+}
+
+#themesButton {
+  background: url(/images/palette-solid.svg) center no-repeat;
+  background-size: 17px;
+}
+
+#searchButton:hover {
+  background-color: beige;
+}
+#saveButton:hover {
+  background-color: whitesmoke;
+  box-shadow: 0 0 10px 6px rgb(74, 229, 74);
+  height: 50px;
+  width: 50px;
+}
+
+#showNotesButton:hover {
+  background-color: rgb(255, 255, 0);
+  box-shadow: 0 0 10px 6px rgb(230, 238, 83);
+  height: 50px;
+  width: 50px;
+}
+
+#clearNotesButton:hover {
+  background-color: rgb(202, 146, 228);
+  box-shadow: 0 0 10px 6px rgb(202, 146, 228);
+  height: 50px;
+  width: 50px;
+}
+#deleteNotesButton:hover {
+  background-color: rgb(255, 0, 0);
+  box-shadow: 0 0 10px 6px rgb(230, 64, 64);
+  height: 50px;
+  width: 50px;
+}
+
+#themesButton:hover {
+  background-color: rgb(48, 167, 214);
+  box-shadow: 0 0 10px 6px rgb(94, 147, 197);
+  height: 50px;
+  width: 50px;
+}
+
+#themesButton > span ul {
+  margin-top: 45px;
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+#themesButton > span button {
+  background: black;
+  margin-top: 2px;
+  color: rgba(144, 238, 144, 0.776);
+  width: 70px;
+  height: 20px;
+  text-align: center;
+  justify-items: center;
+  border-radius: 50px;
+}
+
+.bottom {
+  margin-top: 65px;
+}
+
+.bottom p,
+a {
+  font-size: 15px;
+  font-family: "Sans Serif";
+  color: #f6f5f5;
+  text-decoration: none;
+}

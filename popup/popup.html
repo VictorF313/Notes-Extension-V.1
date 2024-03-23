@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Chrome Extension</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
 
+  <body>
+    <div class="box">
+      <div class="note">
+        <h3>Notes</h3>
+        <div class="search">
+          <input
+            type="text"
+            class="searchBar"
+            id="searchBar"
+            placeholder="🔎 Search Note"
+            pointer
+          />
+          <button id="searchButton" pointer></button>
+        </div>
+        <input type="text" id="titleBar" placeholder="Enter Title" pointer />
+        <textarea
+          class="comment"
+          text
+          cols="60"
+          rows="12"
+          autofocus
+          pointer
+        ></textarea>
+      </div>
+      <small> * Do not use "=" and ">" together in your notes.</small>
+      <div class="button">
+        <button id="showNotesButton"></button>
+        <button id="saveButton"></button>
+        <button id="clearNotesButton"></button>
+        <button id="deleteNotesButton"></button>
+        <button id="themesButton"><span></span></button>
+      </div>
+      <footer>
+        <div class="bottom">
+          <a href="https://github.com/VictorF313" target="_blank"
+            >Credits: Victor F./Sharique</a
+          >
+          <p>© India, All rights reserved</p>
+        </div>
+      </footer>
+    </div>
+    <script src="popup.js"></script>
+    <script src="themes.js"></script>
+  </body>
+</html>
