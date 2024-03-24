@@ -11,7 +11,7 @@ Below is the image of the extension on action.
 
 - You can add your notes and save it to the database(IndexedDB).
 
-![App Screenshot](https://github.com/VictorF313/Notes-Extension-V.1/assets/129792251/e1b0a38d-b652-478b-8d04-db74f0f81cee)
+![App Screenshot](https://github.com/VictorF313/Notes-Extension-V.1/assets/129792251/60676e4a-ff8d-42b5-8296-bda723c5595b)
 
 - Click the list button to see the saved notes.
 
@@ -36,3 +36,4 @@ In the first image we have two notes, and in the second image we searched for "N
 There are two pre-set themes, if you want your custom theme then click the custom button and enter color or color code for body and text.
 
 ![App Screenshot](https://github.com/VictorF313/Notes-Extension-V.1/assets/129792251/13bb03f8-d064-4557-8353-084a25e7bc7d)
+
