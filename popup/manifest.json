@@ -1,0 +1,16 @@
+{
+    "name": "Personal Notes Manager",
+    "version": "1.0.9",
+    "description": "This Extension Helps You to Manage Your Personal Notes",
+    "manifest_version": 3,
+    "author": "Victor F./Sharique",
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_title": "First Chrome Extension",
+        "default_icon": "images/ext_icon.png",
+        "permissions": [
+            "storage",
+            "sidePanel"
+        ]
+    }
+}
