@@ -151,7 +151,6 @@ small {
 #showNotesButton {
   background: url(/images/list-solid.svg) center no-repeat;
   background-size: 17px;
-  /* background-color: rgb(58, 255, 127); */
 }
 
 #saveButton {
@@ -177,6 +176,7 @@ small {
 #searchButton:hover {
   background-color: beige;
 }
+
 #saveButton:hover {
   background-color: whitesmoke;
   box-shadow: 0 0 10px 6px rgb(74, 229, 74);
@@ -197,6 +197,7 @@ small {
   height: 50px;
   width: 50px;
 }
+
 #deleteNotesButton:hover {
   background-color: rgb(255, 0, 0);
   box-shadow: 0 0 10px 6px rgb(230, 64, 64);
@@ -211,7 +212,7 @@ small {
   width: 50px;
 }
 
-#themesButton > span ul {
+#themesButton>span ul {
   margin-top: 45px;
   padding: 7px;
   display: flex;
@@ -221,7 +222,7 @@ small {
   align-items: center;
 }
 
-#themesButton > span button {
+#themesButton>span button {
   background: black;
   margin-top: 2px;
   color: rgba(144, 238, 144, 0.776);
