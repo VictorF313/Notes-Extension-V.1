@@ -112,12 +112,10 @@ small {
   height: 45px;
   width: 45px;
   cursor: pointer;
-  border: 1.5px solid;
-  border-color: cornsilk;
+  border: none;
   transition-property: background-color;
   transition-duration: 0.5s;
   border-radius: 50%;
-  box-shadow: 0 0 4px 4px darkslategray;
 }
 
 .button img {
@@ -151,26 +149,31 @@ small {
 #showNotesButton {
   background: url(/images/list-solid.svg) center no-repeat;
   background-size: 17px;
+  background-color: #e5f4f4;
 }
 
 #saveButton {
   background: url(/images/floppy-disk-solid.svg) center no-repeat;
   background-size: 17px;
+  background-color: #e5f4f4;
 }
 
 #clearNotesButton {
   background: url(/images/rotate-right-solid.svg) center no-repeat;
   background-size: 17px;
+  background-color: #e5f4f4;
 }
 
 #deleteNotesButton {
   background: url(/images/trash-solid.svg) center no-repeat;
   background-size: 17px;
+  background-color: #e5f4f4;
 }
 
 #themesButton {
   background: url(/images/palette-solid.svg) center no-repeat;
   background-size: 17px;
+  background-color: #e5f4f4;
 }
 
 #searchButton:hover {
